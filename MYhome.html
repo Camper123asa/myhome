@@ -6,21 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>나의 비전 나의 이야기</title>
     <style>
-        span{
-            border: 2px solid;
+        body{
+            background-color: cadetblue;
+        }
+        div{
+            color:goldenrod
+        }
+        div:hover{
+            background-color: aquamarine;
+        }
+        table{
+            background-color:turquoise;
+            border-collapse: collapse;
+        }
+        td,tr{
+            border: none;
+        }
+        img{
+            width: 70%;
         }
         h3{
+            color:white;
+            text-shadow: 0px 0px 3px darkblue;
+            background-color: aquamarine;
+            border-radius: 20px;
             font-size: 300%;
-            background-color: aqua;
             display:inline;
             border:2px solid;
         }
         p{
-            background-color: aqua;
             font-size: 200%;
-            border: 2px solid;
-            height: 250px;
-            width: 1000px;
             text-align: center;
         }
         #text{
@@ -30,10 +45,33 @@
 </head>
 <body>
     <h3> 나의 비전은 나의 이야기</h3>
-    <h3 id="text"><span style="text-align:right">제작자: 한성현</span></h3>
-    <hr>
-    <p>잡다한 글과 그림들을 올리는 사이트 또는 정보글 공유용 사이트</p>
-    <span><img src="/img/lambo.png" alt="lambo"></span>
     
+    <hr>
+    <p>다양한 차량과 탈것을 설명하는 나의 이야기</p>
+    <p>주로 비싼 스포츠카나 군용 탈것을 설명합니다</p>
+    
+    <table border="1">
+        <tr><td>
+                <a href="lambo.html" target="blank">
+                <img src="/img/lambo.png" alt="veneno"></a></td>
+                <td>
+                    <div><--람보르기니 베네노</div>
+                    사진을 누르면 이동합니다
+                </td>
+                <td></td>
+        </tr>
+        <tr><td>
+            <a href="K2.html" target="blank">
+            <img src="/img/k2.jpg" alt="K2"></td>
+            <td>
+                <div><--K2흑표 전차</div>
+                사진을 누르면 이동합니다
+            </td>
+            </tr>
+            
+            
+    </table>
+    
+
 </body>
 </html>
